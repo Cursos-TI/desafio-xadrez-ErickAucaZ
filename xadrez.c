@@ -31,6 +31,7 @@ int main() {
         int torre;
         int bispo = 0;
         int rainha = 0;
+        int cavalo = 0;
 
         printf("== Peça: Torre! ==\n");
 
@@ -54,5 +55,17 @@ int main() {
         }
         while (rainha < 8);
 
-return 0;
+        printf("\n== Peça: Cavalo ==\n");
+
+        while(cavalo == 0)
+        {
+        for(int i = 1; i <= 2; i++)
+        {
+            printf("Cima!\n");
+        }
+            printf("Direita!\n");
+        cavalo++;
+        }
+
+    return 0;
 }
